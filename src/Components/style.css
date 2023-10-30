@@ -1,0 +1,77 @@
+.cal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    height: 100vh;
+  }
+  
+  .section {
+    border: 1px solid grey;
+    padding: 50px;
+    background-image: linear-gradient(to right, orange, yellow);
+    width: 200px; /* Adjust width as per your requirement */
+    border-radius: 10px; /* Rounded corners */
+    width: 400px;
+    height: 60vh;
+    font-size: larger;
+    font-weight: bolder;
+  }
+  
+  .display {
+    height: 80px;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    
+  }
+  
+  .buttons{
+    padding: 30px;
+
+  }
+
+  .buttons .row {
+    display: flex;
+  }
+  
+  .row .col {
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    /* border: 1px solid grey; Grey border around buttons */
+  }
+  
+  /* Additional CSS for rounded buttons and hover effect */
+  .row .col {
+      /* border-radius:50%; Rounded buttons */
+      width:50px; /* Fixed width and height for circular shape */
+      height:50px; 
+      line-height:5px; /* Center text vertically */
+
+    }
+  
+  .row .col:hover {
+      background-color:black; /* Lighter color on hover */
+    color: white;
+    }
+
+
+    .row .col {
+        /* Increase width and height for larger buttons */
+        width: 70px; 
+        height: 70px; 
+      
+        /* Adjust line-height for vertical alignment */
+       font-size: 30px;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-weight: 300;
+        line-height: 50px; 
+      }
+      
+
+  
